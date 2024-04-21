@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: black;
+  font-family:'Courier New', Courier, monospace;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.container{
+  margin: auto;
+  margin-top: auto;
+  width: 60%;
+  display: flex;
+  background-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tit{
+  text-align: center;
+  font-size: 350%;
+}
+
+.row{
+  border: 2px solid white;
+  border-right: 1px solid white;
+  background-color: black;
+  border-top: none;
+  margin: 0px;
+  flex-grow: 1;
+  border-radius: 30px;
+}
+.ball{
+  border-radius: 99999px;
+  width: 70%;
+  height: 0;
+  padding-bottom: 70%;
+  margin: auto;
+  background-color: transparent;
+}
+.ballw{
+  border-radius: 99999px;
+  width: 70%;
+  height: 0;
+  padding-bottom: 70%;
+  margin: auto;
+  background-color: white;
+}
+.ballg{
+  border-radius: 99999px;
+  width: 70%;
+  height: 0;
+  padding-bottom: 70%;
+  margin: auto;
+  background-color: grey;
+}
+.arrowg{
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 300%;
+  color: grey;
+}
+.arroww{
+  margin-bottom: 10px;
+  color: white;
+  width: 100%;
+  font-size: 300%;
+}
+#ars{
+  font-size: 300%;
+}
+#art{
+  color: transparent;
+}
+.popup{
+  position: fixed;
+  left: 34%;
+  border-radius: 20px;
+  padding: 7.5%;
+  background-color: white;
+  font-size: xx-large;
+  color: black;
+  align-items: center;
+  justify-self: center;
+}
+button{
+  padding: 10px;
+  margin: 12px;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
 }
