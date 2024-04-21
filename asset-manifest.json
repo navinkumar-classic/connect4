@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/connect4/static/css/main.e4a51e01.css",
+    "main.js": "/connect4/static/js/main.1c2eef2e.js",
+    "static/js/453.c565b669.chunk.js": "/connect4/static/js/453.c565b669.chunk.js",
+    "index.html": "/connect4/index.html",
+    "main.e4a51e01.css.map": "/connect4/static/css/main.e4a51e01.css.map",
+    "main.1c2eef2e.js.map": "/connect4/static/js/main.1c2eef2e.js.map",
+    "453.c565b669.chunk.js.map": "/connect4/static/js/453.c565b669.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4a51e01.css",
+    "static/js/main.1c2eef2e.js"
+  ]
+}
